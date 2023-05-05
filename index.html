@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="port.css" />
+    <!-- <script src="port.js"></script> -->
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/img/logo.jpg"
+            alt="Logo"
+            style="width: 40px"
+            class="rounded-pill"
+          />
+        </a>
+        <a class="navbar-brand pill" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link vertRule"
+                href="https://www.facebook.com/orlando.henry1/"
+                >Facebook</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link vertRule"
+                href="https://www.instagram.com/ohenrico21/"
+                >Instagram</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link vertRule"
+                href="https://www.youtube.com/channel/UCdjmXLJxLw_4WEhA8bxMNwg?app=desktop&fbclid=PAAabqsVul-6BV37aUpXAmFZIuoQZZlZKqfMeeFer7kvCU8CbXJucnHtdDzGw"
+                >YouTube</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Other Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Pending</a>
+                <a class="dropdown-item" href="#">Pending</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Pending</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-example">
+            <label for="email" class="text"
+              >Feel free to input an email address to be contacted:
+            </label>
+            <input
+              placeholder="Enter your email"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main>
+        <div class="firstMes">
+          <h1>Hi, my name is <span>Orlando Henry</span></h1>
+          <!-- <button  class="knowMore">know more</button> -->
+          <a class="knowMore" href="#know">KnowMore</a>
+        </div>
+
+        <div id="know" style="padding: 40px"></div>
+
+        <div class="hidden contain1 container-fluid container">
+          <div>
+            <img class="picBord" src="/img/dellCode.jpg" alt="Laptop" />
+          </div >
+          <div class="divide">
+            <h1>A little about me...</h1>
+            <p >
+              I have a passion for learning various skills. It ranges from
+              learning dividend investing, Japanese to now, web development. I
+              view learning React as another smaller goal among other web dev
+              goals that I have. I want to continue to grow day by day.
+              <br />
+              <br />
+              ちなみに日本語をできりますわけ...
+            </p>
+          </div>
+        </div>
+
+        <div class="hidden contain2 container-fluid container">
+          <div class="divide">
+            <h1>Traveler of sorts</h1>
+            <div>
+              <img class="plane hidden" src="/img/plane.png" alt="plane">
+            </div>
+            <p>
+              I've had the great fortune to have been in various places, from
+              Jamaica, Japan, South Korea and a few other countries. I live in
+              and have traveled throughout the U.S east coast.
+            </p>
+          </div>
+          <div>
+            <img
+              class="picBord"
+              src="/img/merryChrist.jpg"
+              alt="Christmas Picture"
+            />
+          </div>
+        </div>
+
+        <div class="hidden contain3 container-fluid container">
+          <div>
+            <img
+              class="picBord"
+              src="/img/weldMarine.jpg"
+              alt="Marine Welder"
+            />
+          </div>
+          <div class="divide">
+            <h1>Military Service</h1>
+            <p>
+              I come from a military background through my service in the U.S
+              Marines. I am also a welder that have worked on the nation's
+              Nuclear Submarines and Aircraft Carriers.
+            </p>
+          </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">
+              Welcome, I would like to start by thanking you for viewing this
+              site. I am eager to expand my knowledge of programming. I am very
+              much looking forward to build new projects to reinforce and grow
+              my knowledge base. Languages such as HTML, CSS, JavaScript and
+              beyond. I can be reached at orlandohenry100@gmail.com.
+            </p>
+            <form class="form-example">
+              <label for="email"
+                >Feel free to input an email address to be contacted:
+              </label>
+              <input
+                placeholder="Enter your email"
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
+            </form>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Languages</h6>
+            <ul class="footer-links">
+              <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                  >CSS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks"
+                  >HTML</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                  >JavaScript</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li>
+                <a href="https://www.facebook.com/orlando.henry1/">Facebook</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/ohenrico21/">Instagram</a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCdjmXLJxLw_4WEhA8bxMNwg?app=desktop&fbclid=PAAabqsVul-6BV37aUpXAmFZIuoQZZlZKqfMeeFer7kvCU8CbXJucnHtdDzGw"
+                  >youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+              Copyright &copy; 2023 All Rights Reserved by
+              <a href="#">Portfolio</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="port.js"></script>
+  </body>
+</html>
